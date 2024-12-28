@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no">
+    
 </head>
 <body>
+    <div id="score">SCORE</div>
+    <div id="result"> You:<br>PC:</div>
+    <div id="computerPickText">Computer picked: </div>
+    <div id="computerPick"> </div>
+    <div id="roundInfo"> Good luck! </div>
+    <div id="buttons">
+        <button id="rock" class="btn">
+            <strong>✊ Rock</strong>
+            <div id="container-stars">
+            <div id="stars"></div>
+            </div>
+        
+            <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            </div>
+        </button>
+        <button id="paper" class="btn">
+            <strong>✋ Paper</strong>
+            <div id="container-stars">
+            <div id="stars"></div>
+            </div>
+        
+            <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            </div>
+        </button>
+        <button id="scissors" class="btn">
+            <strong>✌️ Scissors</strong>
+            <div id="container-stars">
+            <div id="stars"></div>
+            </div>
+        
+            <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            </div>
+        </button>
+    </div>
+    <br>
 
+    <div id="popup" class="modal">
+        <div class="modalContainer">
+            <div class="modalText">modal</div>
+            <button id="play-again-button">Play again!</button>
+            <button id="end-game-button">End game.</button>
+        </div>
+    </div>
 
     <script src="javascript.js"></script>
 </body>
